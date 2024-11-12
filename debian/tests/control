@@ -1,0 +1,2 @@
+Tests: pytest
+Depends: @, python3-all, python3-pytest, python3-pytest-cov, python3-pytest-timeout

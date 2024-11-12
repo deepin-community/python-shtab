@@ -1,5 +1,46 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-shtab (1.7.1-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 1.7.1
+  * Update copyright of debian/ dir to 2024
+  * Update standards version
+  * switched build system to pyproject (change was introduced in 1.6.5-1)
+  * add Bug-Database and Bug-Submit entries to the upstream metadata
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Felix Moessbauer <felix.moessbauer@siemens.com>  Wed, 03 Apr 2024 09:20:40 +0200
+
+python-shtab (1.6.5-1) unstable; urgency=medium
+
+  * New upstream version 1.6.5
+
+ -- Felix Moessbauer <felix.moessbauer@siemens.com>  Fri, 19 Jan 2024 15:18:57 +0100
+
+python-shtab (1.5.5-4) unstable; urgency=medium
+
+  [ Srinuvasan A ]
+  * debian/control: Fix cross build issue for bullseye images
+
+  [ Felix Moessbauer ]
+  * add multi-arch hint
+
+ -- Moessbauer Felix <felix.moessbauer@siemens.com>  Fri, 07 Jul 2023 13:17:37 +0800
+
+python-shtab (1.5.5-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Repository-Browse.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 16 Oct 2022 20:58:32 +0100
+
+python-shtab (1.5.5-2) unstable; urgency=medium
+
+  * debian: fix Vcs metadata
+  * debian: run testsuite
+
+ -- Felix Moessbauer <felix.moessbauer@siemens.com>  Tue, 12 Jul 2022 16:06:02 +0200
+
+python-shtab (1.5.5-1) unstable; urgency=medium
+
+  [ Felix Mößbauer ]
+  * Initial release (Closes: #1012761)
+
+ -- Felix Moessbauer <felix.moessbauer@siemens.com>  Mon, 04 Jul 2022 12:23:48 +0200
